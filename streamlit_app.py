@@ -15,7 +15,13 @@ st.info('bienvenidx a tus playlist favoritas')
 
 icon_size = 20
 
-st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Link Spotify', 30), unsafe_allow_html=True)
+st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Escuchar en Spotify', 30), unsafe_allow_html=True)
+st.markdown(st_button('applemusic',
+    'https://music.apple.com/mx/playlist/pop-disfrut%C3%B3n-para-pasarla-bien/pl.u-yZyVE63tdKVB3ZD',
+    'Escuchar en Apple Music',
+    30),
+    unsafe_allow_html=True
+)
 
 
 st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Link Spotify', icon_size)
