@@ -2,6 +2,7 @@ import streamlit as st
 from st_functions import st_button, load_css
 from PIL import Image
 
+
 load_css()
 
 
@@ -13,6 +14,9 @@ st.header('fer dimentica')
 st.info('bienvenidx a tus playlist favoritas')
 
 icon_size = 20
+
+st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Link Spotify', 30), unsafe_allow_html=True)
+
 
 st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Link Spotify', icon_size)
 st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
