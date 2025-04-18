@@ -13,7 +13,7 @@ st.header('fer dimentica')
 
 st.markdown("""
 <div style="background-color: #d9edf7; padding: 10px; border-radius: 5px; text-align: center; color: #31708f;">
-    <strong>bienvenidx a tus playlist favoritas</strong>
+    <strong>bienvenidx a tus playlists favoritas</strong>
 </div>
 """, unsafe_allow_html=True)
 icon_size = 20
