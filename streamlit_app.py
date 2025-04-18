@@ -11,8 +11,11 @@ col2.image(Image.open('hi.png'))
 
 st.header('fer dimentica')
 
-st.info('bienvenidx a tus playlist favoritas')
-
+st.markdown("""
+<div style="background-color: #d9edf7; padding: 10px; border-radius: 5px; text-align: center; color: #31708f;">
+    <strong>bienvenidx a tus playlist favoritas</strong>
+</div>
+""", unsafe_allow_html=True)
 icon_size = 20
 
 st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Escuchar en Spotify', 30), unsafe_allow_html=True)
