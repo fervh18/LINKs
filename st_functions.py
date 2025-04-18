@@ -16,15 +16,6 @@ def st_button(icon, url, label, iconsize):
                 {label}
             </a>
         </p>'''
-    else:
-        button_code = f'''
-        <p>
-            <a href="{url}" class="btn btn-outline-secondary btn-lg btn-block" type="button" aria-pressed="true">
-                {label}
-            </a>
-        </p>'''
-
-    return button_code
     elif icon == 'twitter':
         button_code = f'''
         <p>
