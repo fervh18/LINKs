@@ -17,7 +17,7 @@ def st_button(icon, url, label, iconsize):
             </a>
         </p>'''
 
-   elif icon == 'applemusic':
+    elif icon == 'applemusic':
         button_code = f'''
         <p>
             <a href="{url}" class="btn btn-outline-dark btn-lg btn-block" type="button" aria-pressed="true">
