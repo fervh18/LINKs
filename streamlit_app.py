@@ -20,7 +20,7 @@ icon_size = 20
 
 
 st.markdown("""
-<div style="background-color: #008080; padding: 10px; border-radius: 5px; text-align: center; color: #31708f;">
+<div style="background-color: #008080; padding: 10px; border-radius: 5px; text-align: center; color: #FFFFF0;">
     <strong>pop disfrutón para pasarla bien</strong>
 </div>
 """, unsafe_allow_html=True)
