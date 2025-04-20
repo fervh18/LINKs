@@ -22,7 +22,7 @@ st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1
 st.markdown(st_button('applemusic',
     'https://music.apple.com/mx/playlist/pop-disfrut%C3%B3n-para-pasarla-bien/pl.u-yZyVE63tdKVB3ZD',
     'Escuchar en Apple Music',
-    icon_size),
+    40),
     unsafe_allow_html=True
 )
 
