@@ -18,12 +18,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 icon_size = 20
 
-st.markdown("""
-<div style="background-color: ##4682B4; padding: 10px; border-radius: 5px; text-align: center; color: #FFFFF0;">
-    <strong>otro domingo de bajón pensando tanto :( ↓</strong>
-</div>
-""", unsafe_allow_html=True)
-icon_size = 20
+
 
 st.markdown("""
 <div style="background-color: #008080; padding: 10px; border-radius: 5px; text-align: center; color: #FFFFF0;">
