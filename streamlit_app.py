@@ -18,6 +18,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 icon_size = 20
 
+st.markdown("""
+<div style="background-color: #d9edf7; padding: 10px; border-radius: 5px; text-align: center; color: #008080;">
+    <strong>pop disfrutón para pasarla biens</strong>
+</div>
+""", unsafe_allow_html=True)
+icon_size = 20
+
+
+
 st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Escuchar en Spotify', 30), unsafe_allow_html=True)
 st.markdown(st_button('applemusic',
     'https://music.apple.com/mx/playlist/pop-disfrut%C3%B3n-para-pasarla-bien/pl.u-yZyVE63tdKVB3ZD',
