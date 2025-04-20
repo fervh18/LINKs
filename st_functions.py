@@ -39,8 +39,6 @@ def st_button(icon, url, label, iconsize):
             </a>
         </p>'''
 
-   
-
     else:
         button_code = f'''
         <p>
