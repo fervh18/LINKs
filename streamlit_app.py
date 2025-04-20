@@ -16,13 +16,13 @@ st.markdown("""
     <strong>bienvenidx a tus playlists favoritas</strong>
 </div>
 """, unsafe_allow_html=True)
-icon_size = 10
+icon_size = 20
 
 st.markdown(st_button('spotify', 'https://open.spotify.com/playlist/5Zm4gmdf1MK1HulF6Qb5Hq?si=x7ZF9g1ESXCQ84nYsYO_GA', 'Escuchar en Spotify', 30), unsafe_allow_html=True)
 st.markdown(st_button('applemusic',
     'https://music.apple.com/mx/playlist/pop-disfrut%C3%B3n-para-pasarla-bien/pl.u-yZyVE63tdKVB3ZD',
     'Escuchar en Apple Music',
-    30),
+    icon_size),
     unsafe_allow_html=True
 )
 
